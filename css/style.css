@@ -78,6 +78,10 @@ h1 {
 }
 
 h2 {font-size: 5.063rem;}
+#smaller{
+    font-size: 4em;
+    font-weight: 600;
+}
 
 h3 {font-size: 3.375rem;}
 
@@ -112,6 +116,19 @@ small, .text_small {font-size: 0.667rem;}
 .m0{
     margin: 0;
 }
+
+.btn{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000000;
+}
+.btn-secondary{
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+.btn-secondary:hover{
+    background-color: orange;
+}
 /*END Global Styles*/
 
 /*Main Styles*/
@@ -122,6 +139,7 @@ small, .text_small {font-size: 0.667rem;}
 .hero > .col{
     height: 100vh;
 }
+
 .hero-bg{
     background-image: url("/assets/Gal.jpg");
     background-repeat: no-repeat;
@@ -135,6 +153,21 @@ small, .text_small {font-size: 0.667rem;}
     width: 1.3em;
     margin: 0.5em;
     
+}
+#smaller span{
+    color: orange;
+}
+.hero-copy{
+    position:relative;
+}
+.design{
+    position: absolute;
+    color: gray;
+    font-weight: 600;
+    top: -0.3em;
+    left: -0.5em;
+    z-index: -1;
+    opacity: 15%;
 }
 .social-footer{
     flex-direction: row;
