@@ -105,11 +105,12 @@ small, .text_small {font-size: 0.667rem;}
 
 /*Main Styles*/ 
 .hero > .col{
-    height: 90vh;
+    height: 100vh;
 }
 .hero-bg{
     background-image: url("/assets/Gal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 /*END Main Styles*/
